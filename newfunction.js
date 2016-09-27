@@ -12,7 +12,6 @@ function lengths () {
 lengths(words)
 
 // short4
-
 function sumArray ([a,b,c,d]) {
   var sum = a + b + c + d
   return sum

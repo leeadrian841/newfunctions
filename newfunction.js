@@ -13,22 +13,24 @@ lengths(words)
 
 // short4
 var arr = [1,2,3,4]
+var sum = 0
+var product = 0
 
-arr.forEach(function () {
-
-})
-
-function sumArray ([a,b,c,d]) {
-  var sum = a + b + c + d
+function sumArray () {
+  arr.forEach(function (num) {
+    sum += num
+  })
   return sum
 }
-sumArray([1,2,3,4])
+sumArray(arr)
 
-function multiplyArray ([a,b,c,d]) {
-  var product = a * b * c * d
+function multiplyArray () {
+  arr.forEach(function (num) {
+    product *= num
+  })
   return product
 }
-multiplyArray([1,2,3,4])
+multiplyArray(arr)
 
 
 // short7
@@ -80,8 +82,7 @@ var arrOfArr =
       [1000, 1001, 857, 1]
     ];
 
-var
-
+var largest = []
 arrOfArr.forEach(function () {
 
 })

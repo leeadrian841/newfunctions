@@ -82,5 +82,8 @@ var arrOfArr =
 
 var
 
+arrOfArr.forEach(function () {
+
+})
 
 // output ==> [ 5, 27, 39, 1001 ]

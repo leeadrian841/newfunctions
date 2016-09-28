@@ -12,6 +12,12 @@ function lengths () {
 lengths(words)
 
 // short4
+var arr = [1,2,3,4]
+
+arr.forEach(function () {
+
+})
+
 function sumArray ([a,b,c,d]) {
   var sum = a + b + c + d
   return sum
@@ -44,14 +50,13 @@ var result = false
 var words = ["hello", "what", "is", "up", "dude"]
 
 function filterLongWords (arr, x) {
+  var lgword = []
   words.forEach(function (word) {
     if (word.length > x) {
-      return word
-    } else {
-      result = false
-      return result
+      lgword.push(word)
     }
   })
+  return lgword
 }
 filterLongWords(words, 4)
 
@@ -75,6 +80,7 @@ var arrOfArr =
       [1000, 1001, 857, 1]
     ];
 
+var
 
 
 // output ==> [ 5, 27, 39, 1001 ]

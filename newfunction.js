@@ -69,8 +69,19 @@ filterLongWords(words, 4)
 
 var str = "The quick brown fox jumped over the lazy dog";
 
-var single = str.split(' ')
-
+function lookLongestWords () {
+  var single = str.split(' ')
+  var compare = function (a, b) {
+    if (a.length > b.length) {
+      return a
+    } else {
+      return b
+    }
+  }
+  var result = single.reduce(compare)
+  return result
+}
+lookLongestWords(str)
 
 // find the largest number in array of array
 // hint: map and reduce
@@ -83,9 +94,8 @@ var arrOfArr =
       [1000, 1001, 857, 1]
     ];
 
-var largest = []
-arrOfArr.forEach(function () {
-
-})
-
+function largestnumArr () {
+  
+}
+largestnumArr
 // output ==> [ 5, 27, 39, 1001 ]

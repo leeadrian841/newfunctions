@@ -23,7 +23,6 @@ function sumArray () {
 }
 sumArray(arr)
 
-// use .reduce
 function multiplyArray () {
   var add = function (a, b) {
     return a * b
@@ -95,7 +94,12 @@ var arrOfArr =
     ];
 
 function largestnumArr () {
-  
+
+  var largest = .reduce()
+  return largest
+
+  var result = .map()
+
 }
 largestnumArr
 // output ==> [ 5, 27, 39, 1001 ]

@@ -13,21 +13,22 @@ lengths(words)
 
 // short4
 var arr = [1,2,3,4]
-var sum = 0
-var product = 0
 
 function sumArray () {
-  arr.forEach(function (num) {
-    sum += num
-  })
+  var add = function (a, b) {
+    return a + b
+  }
+  var sum = arr.reduce(add)
   return sum
 }
 sumArray(arr)
 
+// use .reduce
 function multiplyArray () {
-  arr.forEach(function (num) {
-    product *= num
-  })
+  var add = function (a, b) {
+    return a * b
+  }
+  var product = arr.reduce(add)
   return product
 }
 multiplyArray(arr)
